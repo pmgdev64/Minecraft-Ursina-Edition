@@ -1,10 +1,7 @@
 ```
-import 'testmode' from sys
+from mcu_mod import *
 
-pub class main() {
-  pub static def main(runtime[args]) {
-     sys.print('hello world');
-  }
-}
+mod = mcu(test_mode=False)
+mod.execute()
 ```
 
