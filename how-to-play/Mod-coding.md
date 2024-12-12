@@ -9,7 +9,8 @@
   ``` json
   "mods": {
       "package_name": "example name",
-      "version": "0.1.0"
+      "version": "0.1.0",
+      "runtime": true
   }
 
 
