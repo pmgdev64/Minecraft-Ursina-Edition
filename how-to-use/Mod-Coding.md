@@ -12,5 +12,16 @@
       "version": "0.1.0",
       "runtime": true
   }
+- make a Object Animations:
+  ``` python
+  from mcu_mod.Animations import Animations
+
+  Animations.animate(
+    self,
+    EaseInOut = 'None',
+    PosX = 0,
+    PosY = 0
+  )
+    
 
 
