@@ -4,7 +4,7 @@ class Perlin:
     def __init__(this):
         from ursina import Text, destroy
         # this.seed=randint(0,1000000)
-        this.seed=2022
+        this.seed=-9337280445
         world=Text(str(this.seed) + " this is a nice seed :)",scale=3)
         # Destroy the text on screen after 10 seconds.
         destroy(world,10)
