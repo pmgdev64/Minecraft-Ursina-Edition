@@ -7,4 +7,11 @@ class Animations(self, Objects, Durations):
     self.easeinout = EaseInOut
     self.x = PosX
     self.y = PosY
+
+Animations.animate(
+  self,
+  EaseInOut = 'None',
+  PosX = 0,
+  PosY = 0
+)
     
