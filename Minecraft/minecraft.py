@@ -158,6 +158,18 @@ grass_audio.volume=0.1
 pX = subject.x
 pZ = subject.z
 
+class minecraft():
+    def launch(self, Args):
+        self.args=Args
+        app.run()
+    def chat(self, InputData):
+        self.input=InputData
+
+class Commands(self, Executable):
+    self.executable=Executable
+    def CommandInput(self, DataInput):
+        self.datainput=DataInput
+
 def input(key):
     global generatingTerrain
     terrain.input(key)
@@ -246,12 +258,5 @@ from mob_system import *
 class keyboard_function():
     def camera_mode(camera_mode):
         pass
-
-class minecraft():
-    def launch(self, Args):
-        self.args=Args
-        app.run()
-    def chat(self, Input):
-        self.input=Input
-
+        
 minecraft.launch(Args)
