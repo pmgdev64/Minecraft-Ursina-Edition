@@ -21,6 +21,11 @@ def saveMap(_subPos, _td):
 
         map_data.clear()
 
+class WorldNotFound(Exception):
+    def __init__(self, msg):
+        self.msg=msg
+        print('World Not Loaded.\nFinished At Exit Code 1')
+
 def loadMap(_subject,_terrain):
     if os.path.isfile(mapName):
         # Open main module directory for correct file.
@@ -66,3 +71,6 @@ def loadMap(_subject,_terrain):
         # Regenerate subset models, so that we can see terrain.
         for s in _terrain.subsets:
             s.model.generate()
+
+    if not os.path.isfile(mapName):
+        raise WorldNotFound('Cannot Load Map Name:', mapName)
