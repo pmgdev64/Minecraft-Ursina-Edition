@@ -5,4 +5,7 @@
     <img width=60% alt="Shows a black logo in light color mode and a white one in dark color mode." src="">
   </picture>
 </p>
-- Introducing New Minecraft Edition -
+
+![Static Badge](https://img.shields.io/badge/Youtube-*?style=for-the-badge&logo=Youtube&color=red)
+
+- Introducing New Minecraft Edition 
