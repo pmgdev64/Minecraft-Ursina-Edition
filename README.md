@@ -1,2 +1,2 @@
-# Minecraft-Ursina-Edition
-The Best Minecraft Version
+# Minecraft Ursina Edition (A Not Cloned Minecraft Game)
+- Introducing New Minecraft Edition
