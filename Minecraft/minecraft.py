@@ -248,7 +248,10 @@ class keyboard_function():
         pass
 
 class minecraft():
-    def launch():
+    def launch(self, Args):
+        self.args=Args
         app.run()
+    def chat(self, Input):
+        self.input=Input
 
-minecraft.launch()
+minecraft.launch(Args)
