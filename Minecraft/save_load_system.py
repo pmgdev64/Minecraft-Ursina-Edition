@@ -1,12 +1,12 @@
 """
 Saving and loading a terrain 'map'.
 """
+import os, sys, pickle
+from ursina import destroy
 
 mapName='saves/june_test_1.land'
 
 def saveMap(_subPos, _td):
-    import os, sys, pickle
-
     # Open main module directory for correct file.
     path = os.path.dirname(os.path.abspath(sys.argv[0]))
     os.chdir(path)
@@ -20,9 +20,6 @@ def saveMap(_subPos, _td):
         map_data.clear()
 
 def loadMap(_subject,_terrain):
-    import os, sys, pickle
-    from ursina import destroy
-
     # Open main module directory for correct file.
     path = os.path.dirname(os.path.abspath(sys.argv[0]))
     os.chdir(path)
