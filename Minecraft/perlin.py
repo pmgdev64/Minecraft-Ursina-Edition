@@ -1,9 +1,9 @@
 from perlin_module import PerlinNoise
 from math import sin
+from ursina import Text, destroy
 
 class Perlin:
     def __init__(this):
-        from ursina import Text, destroy
         # this.seed=randint(0,1000000)
         this.seed=-9337280445
         world=Text("Loaded Seed: "+str(this.seed)",scale=3)
