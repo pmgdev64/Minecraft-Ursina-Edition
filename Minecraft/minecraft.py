@@ -74,12 +74,22 @@ class minecraft():
         self.args=Args
         app.run()
     def chat(self, InputData):
-        self.input=InputData
+        self.input=str(InputData)
 
 class Commands(self, Executable):
+    command_tokens=[
+        'say',
+        'execute',
+        'kill',
+        'title',
+        'scoreboard',
+        'particle',
+        'function',
+        'custom_commands'
+    ]
     self.executable=Executable
     def CommandInput(self, DataInput):
-        self.datainput=DataInput
+        self.datainput=str(DataInput)
 
 def input(key):
     global generatingTerrain
