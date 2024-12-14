@@ -73,8 +73,10 @@ class minecraft():
     def launch(self, Args):
         self.args=Args
         app.run()
+    '''
     def chat(self, InputData):
         self.input=str(InputData)
+    '''
 
 class Commands(self, Executable):
     command_tokens=[
@@ -87,9 +89,11 @@ class Commands(self, Executable):
         'function',
         'custom_commands'
     ]
+    '''
     self.executable=Executable
     def CommandInput(self, DataInput):
         self.datainput=str(DataInput)
+    '''
 
 def input(key):
     global generatingTerrain
