@@ -2,7 +2,7 @@
 Saving and loading a terrain 'map'.
 """
 import os, sys, pickle
-from ursina import destroy
+from ursina import Text, destroy
 
 mapName='saves/june_test_1.land'
 
@@ -10,6 +10,8 @@ def saveMap(_subPos, _td):
     # Open main module directory for correct file.
     path = os.path.dirname(os.path.abspath(sys.argv[0]))
     os.chdir(path)
+    savemap=Text(text='saved map name: '+map_data, scale=0.5)
+    destroy(savemap, 6) #delete the text after 6sec when the world is saved.             
 
     with open(mapName, 'wb') as f:
 
@@ -25,6 +27,10 @@ def loadMap(_subject,_terrain):
     os.chdir(path)
     with open(mapName, 'rb') as f:
         map_data = pickle.load(f)
+
+    loadmap=Text(text='loaded map name: '+map_data, scale=0.5)
+    destroy(loadmap, 6) #delete the text after 6sec when the world is loaded (Looks Like savemap).             
+                 
 
     # Empty out current terrain objects.
     for s in _terrain.subsets:
