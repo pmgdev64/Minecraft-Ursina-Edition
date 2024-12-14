@@ -1,4 +1,5 @@
 from perlin_module import PerlinNoise
+from math import sin
 
 class Perlin:
     def __init__(this):
@@ -23,7 +24,6 @@ class Perlin:
         
 
     def getHeight(this,x,z):
-        from math import sin
         y = 0
         y = this.pNoise_continental([x/512,z/512])*128
         y += this.pNoise_details([x/this.freq,z/this.freq])*this.amp
