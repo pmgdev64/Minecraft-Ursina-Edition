@@ -72,7 +72,7 @@ pZ = subject.z
 
 class minecraft():
     def launch(self, Args):
-        self.args=Args
+        self.Args=Args
         app.run()
     '''
     def chat(self, InputData):
