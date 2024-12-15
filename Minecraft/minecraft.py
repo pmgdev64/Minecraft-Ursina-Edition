@@ -1,4 +1,5 @@
 from ursina import *
+from ursinanetworking import *
 import keyboard as kb # import keyboard library
 # Instantiate ursina here, so that textures can be
 # loaded without issue in other modules :)
