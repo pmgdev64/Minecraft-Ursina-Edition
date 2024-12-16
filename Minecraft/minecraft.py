@@ -74,10 +74,8 @@ class minecraft():
     def launch(self, Args):
         self.Args=Args
         app.run()
-    '''
     def chat(self, InputData):
-        self.input=str(InputData)
-    '''
+        self.InputData=InputData
 
 class Commands(self, Executable):
     command_tokens=[
