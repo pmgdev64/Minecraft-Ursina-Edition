@@ -8,3 +8,7 @@
 # Minecraft-Ursina-Edition (•_•)
 - Introducing New Minecraft Edition
 - to get started, go to how-to-use folder to read all information.
+- [ ] Feature 1
+- [ ] Feature 2
+- [ ] Feature 3
+    - [ ] Nested Feature
