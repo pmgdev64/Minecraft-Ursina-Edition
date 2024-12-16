@@ -5,6 +5,6 @@
     <img width=60% alt="Shows a black logo in light color mode and a white one in dark color mode." src="">
   </picture>
 </p> -->
-
+# Minecraft-Ursina-Edition (•_•)
 - Introducing New Minecraft Edition
 - to get started, go to how-to-use folder to read all information.
