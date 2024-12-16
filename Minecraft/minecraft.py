@@ -27,8 +27,8 @@ window.title = 'Minecraft'
 # indra = Sky()
 # indra.color = window.color
 subject = FirstPersonController(
-    model='cube', #model='assets/player_objects/player.fbx'
-    textures=None
+    model='assets/player_objects/char.obj',
+    textures='assets/player_objects/player/shiroko'
     )
 hb1=HealthBar(
     bar_color=color.cyan,
