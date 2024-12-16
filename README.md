@@ -7,9 +7,13 @@
 </p> -->
 # Minecraft-Ursina-Edition (•_•)
 - Introducing New Minecraft Edition
-- to get started, go to how-to-use folder to read all information.
-- This Game Requires:
+- To Get Started, Go To How-To-Use Folder To Read All Information.
+- This Game Requires All The Following Conditions:
 - [x] Python 3.11 Or Newer
 - [x] Installed Ursina Engine
-- [x] Requires:
+- [x] Running On Windows, Linux
+- [ ] Running On Mac
+- [x] Accessories Requires:
     - [x] Keyboard
+    - [x] Mouse
+    - [ ] Launcher (On Android)
