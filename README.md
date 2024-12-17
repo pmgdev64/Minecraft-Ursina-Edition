@@ -5,6 +5,7 @@
     <img width=60% alt="Shows a black logo in light color mode and a white one in dark color mode." src="">
   </picture>
 </p> 
+
 # Minecraft-Ursina-Edition (•_•)
 - Introducing New Minecraft Edition
 - To Get Started, Go To How-To-Use Folder To Read All Information.
@@ -18,3 +19,7 @@
     - [x] Mouse
     - [ ] Launcher (On Android)
 # 1. Features:
+- New Following Features:
+   - New Blocks:
+      - [x] Cherry Woods, Leaves
+      - [x] Copper Blocks
