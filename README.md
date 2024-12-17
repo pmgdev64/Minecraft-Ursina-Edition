@@ -1,10 +1,10 @@
-<!-- <p align="center">
+<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="contents/filters_quality(95)format(webp).png" style="border-radius=15px;">
     <source media="(prefers-color-scheme: light)" srcset="contents/filters_quality(95)format(webp).png" style="border-radius=15px;">
     <img width=60% alt="Shows a black logo in light color mode and a white one in dark color mode." src="">
   </picture>
-</p> -->
+</p> 
 # Minecraft-Ursina-Edition (•_•)
 - Introducing New Minecraft Edition
 - To Get Started, Go To How-To-Use Folder To Read All Information.
@@ -17,3 +17,4 @@
     - [x] Keyboard
     - [x] Mouse
     - [ ] Launcher (On Android)
+# 1. Features:
