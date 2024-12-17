@@ -23,3 +23,11 @@
    - New Blocks:
       - [x] Cherry Woods, Leaves
       - [x] Copper Blocks
+      - [ ] All Minerals Blocks: Coals, Irons, Golds, Diamonds
+      - [ ] The Strongest Stone: Bedrock, Obsidian
+   - New Structures:
+      - [ ] Villages On A Different Biome
+      - [ ] Jungle Temple
+      - [ ] Others
+   - Custom Skins:
+      - [ ] 3d Models
