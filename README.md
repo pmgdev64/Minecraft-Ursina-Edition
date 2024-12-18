@@ -18,7 +18,6 @@
     - [x] Keyboard
     - [x] Mouse
     - [ ] Launcher (On Android)
-- Notes: The Boxes Without A Check Mark Are Features Or Content That Haven't Added Or Urelated Part Yet.
 # 1. Features:
 - New Following Features:
    - New Blocks:
@@ -32,3 +31,4 @@
       - [ ] Others
    - Custom Skins:
       - [ ] 3d Models
+- Notes: There is Contain One Or More Features Aren't Added
