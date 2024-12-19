@@ -31,4 +31,7 @@
       - [ ] Others
    - Custom Skins:
       - [ ] 3d Models
-- Notes: There is Contain One Or More Features Aren't Added
+- Notes:
+ - There is Contain One Or More Features Aren't Added
+ - this version may have an issues 
+  
