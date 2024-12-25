@@ -116,8 +116,8 @@ def input(key):
 count=0
 earthcounter=0
 earthquake_ON=False
-sky_textures=load_texture("sky.jpg")
-sky_box=Sky(textures=sky_textures)
+sky_scene=load_texture("sky.jpg")
+sky_box=Sky(textures=sky_scene)
 def update():
     global count, pX, pZ, earthcounter, origFOV
 
