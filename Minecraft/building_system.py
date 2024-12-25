@@ -1,6 +1,6 @@
 """
-Our building system :) 2022
-Happy New Year!
+[!] Our building system :) 2024
+[!] Happy New Year 2025! 
 """
 from ursina import Vec3, floor
 from config import six_cube_dirs
