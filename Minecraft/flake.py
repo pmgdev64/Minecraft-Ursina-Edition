@@ -1,6 +1,7 @@
 """
-Snowflake module :)
-Merry Christmas! 2021
+[!] Snowflake module :)
+[!] Merry Christmas! 2024
+[!] Created By PmgDev64
 """
 from ursina import Entity, time
 from random import random
